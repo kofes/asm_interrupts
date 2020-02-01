@@ -1,0 +1,94 @@
+ Samples |	Source code & Disassembly of indep-mov for task-clock (199 samples, percent: local period)
+----------------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         :            Disassembly of section .text:
+         :
+         :            0000000000401032 <_start.loop>:
+         :            _start.loop():
+         :            indep-mov.asm:14
+[32m       3[m : [35m  401032:[m[34m       mov    eax,0x1[m
+[32m       3[m : [35m  401037:[m[34m       mov    ebx,0x2[m
+[32m       2[m : [35m  40103c:[m[34m       mov    edi,0x3[m
+[32m       4[m : [35m  401041:[m[34m       mov    edx,0x4[m
+[32m       2[m : [35m  401046:[m[34m       mov    r8d,0x5[m
+[32m       3[m : [35m  40104c:[m[34m       mov    r9d,0x6[m
+[32m       5[m : [35m  401052:[m[34m       mov    r10d,0x7[m
+[32m       1[m : [35m  401058:[m[34m       mov    r11d,0x8[m
+[32m       3[m : [35m  40105e:[m[34m       mov    eax,0x1[m
+[32m       3[m : [35m  401063:[m[34m       mov    ebx,0x2[m
+[32m       4[m : [35m  401068:[m[34m       mov    edi,0x3[m
+[32m       1[m : [35m  40106d:[m[34m       mov    edx,0x4[m
+[32m       2[m : [35m  401072:[m[34m       mov    r8d,0x5[m
+[32m       3[m : [35m  401078:[m[34m       mov    r9d,0x6[m
+[32m       3[m : [35m  40107e:[m[34m       mov    r10d,0x7[m
+[32m       2[m : [35m  401084:[m[34m       mov    r11d,0x8[m
+[32m       2[m : [35m  40108a:[m[34m       mov    eax,0x1[m
+[32m       1[m : [35m  40108f:[m[34m       mov    ebx,0x2[m
+[32m       2[m : [35m  401094:[m[34m       mov    edi,0x3[m
+[32m       1[m : [35m  401099:[m[34m       mov    edx,0x4[m
+[32m       2[m : [35m  40109e:[m[34m       mov    r8d,0x5[m
+[32m       3[m : [35m  4010a4:[m[34m       mov    r9d,0x6[m
+[32m       4[m : [35m  4010aa:[m[34m       mov    r10d,0x7[m
+       0 : [35m  4010b0:[m[34m       mov    r11d,0x8[m
+[32m       2[m : [35m  4010b6:[m[34m       mov    eax,0x1[m
+[32m       3[m : [35m  4010bb:[m[34m       mov    ebx,0x2[m
+[32m       1[m : [35m  4010c0:[m[34m       mov    edi,0x3[m
+[32m       4[m : [35m  4010c5:[m[34m       mov    edx,0x4[m
+[32m       1[m : [35m  4010ca:[m[34m       mov    r8d,0x5[m
+       0 : [35m  4010d0:[m[34m       mov    r9d,0x6[m
+[32m       1[m : [35m  4010d6:[m[34m       mov    r10d,0x7[m
+[32m       2[m : [35m  4010dc:[m[34m       mov    r11d,0x8[m
+[32m       2[m : [35m  4010e2:[m[34m       mov    eax,0x1[m
+[32m       2[m : [35m  4010e7:[m[34m       mov    ebx,0x2[m
+[32m       1[m : [35m  4010ec:[m[34m       mov    edi,0x3[m
+[32m       5[m : [35m  4010f1:[m[34m       mov    edx,0x4[m
+[32m       3[m : [35m  4010f6:[m[34m       mov    r8d,0x5[m
+[32m       1[m : [35m  4010fc:[m[34m       mov    r9d,0x6[m
+[32m       4[m : [35m  401102:[m[34m       mov    r10d,0x7[m
+[32m       4[m : [35m  401108:[m[34m       mov    r11d,0x8[m
+[32m       1[m : [35m  40110e:[m[34m       mov    eax,0x1[m
+[32m       1[m : [35m  401113:[m[34m       mov    ebx,0x2[m
+[32m       1[m : [35m  401118:[m[34m       mov    edi,0x3[m
+[32m       2[m : [35m  40111d:[m[34m       mov    edx,0x4[m
+[32m       6[m : [35m  401122:[m[34m       mov    r8d,0x5[m
+[32m       2[m : [35m  401128:[m[34m       mov    r9d,0x6[m
+[32m       7[m : [35m  40112e:[m[34m       mov    r10d,0x7[m
+[32m       7[m : [35m  401134:[m[34m       mov    r11d,0x8[m
+[32m       2[m : [35m  40113a:[m[34m       mov    eax,0x1[m
+[32m       2[m : [35m  40113f:[m[34m       mov    ebx,0x2[m
+[32m       4[m : [35m  401144:[m[34m       mov    edi,0x3[m
+[32m       4[m : [35m  401149:[m[34m       mov    edx,0x4[m
+[32m       2[m : [35m  40114e:[m[34m       mov    r8d,0x5[m
+[32m       3[m : [35m  401154:[m[34m       mov    r9d,0x6[m
+       0 : [35m  40115a:[m[34m       mov    r10d,0x7[m
+       0 : [35m  401160:[m[34m       mov    r11d,0x8[m
+[32m       1[m : [35m  401166:[m[34m       mov    eax,0x1[m
+[32m       1[m : [35m  40116b:[m[34m       mov    ebx,0x2[m
+[32m       1[m : [35m  401170:[m[34m       mov    edi,0x3[m
+[32m       3[m : [35m  401175:[m[34m       mov    edx,0x4[m
+[32m       2[m : [35m  40117a:[m[34m       mov    r8d,0x5[m
+       0 : [35m  401180:[m[34m       mov    r9d,0x6[m
+       0 : [35m  401186:[m[34m       mov    r10d,0x7[m
+       0 : [35m  40118c:[m[34m       mov    r11d,0x8[m
+[32m       2[m : [35m  401192:[m[34m       mov    eax,0x1[m
+[32m       3[m : [35m  401197:[m[34m       mov    ebx,0x2[m
+[32m       2[m : [35m  40119c:[m[34m       mov    edi,0x3[m
+[32m       2[m : [35m  4011a1:[m[34m       mov    edx,0x4[m
+[32m       2[m : [35m  4011a6:[m[34m       mov    r8d,0x5[m
+[32m       3[m : [35m  4011ac:[m[34m       mov    r9d,0x6[m
+[32m       3[m : [35m  4011b2:[m[34m       mov    r10d,0x7[m
+[32m       1[m : [35m  4011b8:[m[34m       mov    r11d,0x8[m
+[32m       7[m : [35m  4011be:[m[34m       mov    eax,0x1[m
+[32m       4[m : [35m  4011c3:[m[34m       mov    ebx,0x2[m
+[32m       6[m : [35m  4011c8:[m[34m       mov    edi,0x3[m
+[32m       5[m : [35m  4011cd:[m[34m       mov    edx,0x4[m
+[32m       4[m : [35m  4011d2:[m[34m       mov    r8d,0x5[m
+       0 : [35m  4011d8:[m[34m       mov    r9d,0x6[m
+[32m       3[m : [35m  4011de:[m[34m       mov    r10d,0x7[m
+[32m       4[m : [35m  4011e4:[m[34m       mov    r11d,0x8[m
+         :            indep-mov.asm:16
+[32m       1[m : [35m  4011ea:[m[34m       dec    rcx[m
+         :            indep-mov.asm:17
+       0 : [35m  4011ed:[m[34m       jne    401032 <_start.loop>[m

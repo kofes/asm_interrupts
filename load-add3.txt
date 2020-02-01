@@ -1,0 +1,84 @@
+ Samples |	Source code & Disassembly of load-add3 for task-clock (593 samples, percent: local period)
+----------------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         :            Disassembly of section .text:
+         :
+         :            000000000040103a <_start.loop>:
+         :            _start.loop():
+         :            load-add3.asm:16
+[32m      12[m : [35m  40103a:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      36[m : [35m  40103d:[m[34m       nop[m
+       0 : [35m  40103e:[m[34m       nop[m
+       0 : [35m  40103f:[m[34m       add    rax,0x0[m
+[32m       5[m : [35m  401043:[m[34m       nop[m
+       0 : [35m  401044:[m[34m       nop[m
+       0 : [35m  401045:[m[34m       nop[m
+       0 : [35m  401046:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      46[m : [35m  401049:[m[34m       nop[m
+       0 : [35m  40104a:[m[34m       nop[m
+       0 : [35m  40104b:[m[34m       add    rax,0x0[m
+[32m      14[m : [35m  40104f:[m[34m       nop[m
+       0 : [35m  401050:[m[34m       nop[m
+       0 : [35m  401051:[m[34m       nop[m
+       0 : [35m  401052:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      38[m : [35m  401055:[m[34m       nop[m
+       0 : [35m  401056:[m[34m       nop[m
+       0 : [35m  401057:[m[34m       add    rax,0x0[m
+[32m      17[m : [35m  40105b:[m[34m       nop[m
+       0 : [35m  40105c:[m[34m       nop[m
+       0 : [35m  40105d:[m[34m       nop[m
+       0 : [35m  40105e:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      51[m : [35m  401061:[m[34m       nop[m
+       0 : [35m  401062:[m[34m       nop[m
+       0 : [35m  401063:[m[34m       add    rax,0x0[m
+[32m       7[m : [35m  401067:[m[34m       nop[m
+       0 : [35m  401068:[m[34m       nop[m
+       0 : [35m  401069:[m[34m       nop[m
+       0 : [35m  40106a:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      57[m : [35m  40106d:[m[34m       nop[m
+       0 : [35m  40106e:[m[34m       nop[m
+       0 : [35m  40106f:[m[34m       add    rax,0x0[m
+[32m      12[m : [35m  401073:[m[34m       nop[m
+       0 : [35m  401074:[m[34m       nop[m
+       0 : [35m  401075:[m[34m       nop[m
+       0 : [35m  401076:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      56[m : [35m  401079:[m[34m       nop[m
+       0 : [35m  40107a:[m[34m       nop[m
+       0 : [35m  40107b:[m[34m       add    rax,0x0[m
+[32m       9[m : [35m  40107f:[m[34m       nop[m
+       0 : [35m  401080:[m[34m       nop[m
+       0 : [35m  401081:[m[34m       nop[m
+       0 : [35m  401082:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      45[m : [35m  401085:[m[34m       nop[m
+       0 : [35m  401086:[m[34m       nop[m
+       0 : [35m  401087:[m[34m       add    rax,0x0[m
+[32m       8[m : [35m  40108b:[m[34m       nop[m
+       0 : [35m  40108c:[m[34m       nop[m
+       0 : [35m  40108d:[m[34m       nop[m
+       0 : [35m  40108e:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      57[m : [35m  401091:[m[34m       nop[m
+       0 : [35m  401092:[m[34m       nop[m
+       0 : [35m  401093:[m[34m       add    rax,0x0[m
+[32m      12[m : [35m  401097:[m[34m       nop[m
+       0 : [35m  401098:[m[34m       nop[m
+       0 : [35m  401099:[m[34m       nop[m
+       0 : [35m  40109a:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      43[m : [35m  40109d:[m[34m       nop[m
+       0 : [35m  40109e:[m[34m       nop[m
+       0 : [35m  40109f:[m[34m       add    rax,0x0[m
+[32m      11[m : [35m  4010a3:[m[34m       nop[m
+       0 : [35m  4010a4:[m[34m       nop[m
+       0 : [35m  4010a5:[m[34m       nop[m
+       0 : [35m  4010a6:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      52[m : [35m  4010a9:[m[34m       nop[m
+       0 : [35m  4010aa:[m[34m       nop[m
+       0 : [35m  4010ab:[m[34m       add    rax,0x0[m
+[32m       5[m : [35m  4010af:[m[34m       nop[m
+       0 : [35m  4010b0:[m[34m       nop[m
+       0 : [35m  4010b1:[m[34m       nop[m
+         :            load-add3.asm:18
+       0 : [35m  4010b2:[m[34m       dec    rcx[m
+         :            load-add3.asm:19
+       0 : [35m  4010b5:[m[34m       jne    40103a <_start.loop>[m

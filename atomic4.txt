@@ -1,0 +1,64 @@
+ Samples |	Source code & Disassembly of atomic4 for task-clock (4033 samples, percent: local period)
+---------------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         :            Disassembly of section .text:
+         :
+         :            0000000000401048 <_start.loop>:
+         :            _start.loop():
+         :            atomic4.asm:19
+       0 : [35m  401048:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       5 : [35m  40104d:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      34[m : [35m  401052:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      97[m : [35m  401057:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      97[m : [35m  40105c:[m[34m       lock add QWORD PTR [rbx],0x1[m
+[32m     163[m : [35m  401061:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       0 : [35m  401066:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      44[m : [35m  40106b:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     105[m : [35m  401070:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     102[m : [35m  401075:[m[34m       lock add QWORD PTR [rbx],0x1[m
+[32m     149[m : [35m  40107a:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       0 : [35m  40107f:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      42[m : [35m  401084:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      94[m : [35m  401089:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     116[m : [35m  40108e:[m[34m       lock add QWORD PTR [rbx],0x1[m
+[32m     165[m : [35m  401093:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       0 : [35m  401098:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      50[m : [35m  40109d:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      90[m : [35m  4010a2:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     107[m : [35m  4010a7:[m[34m       lock add QWORD PTR [rbx],0x1[m
+[32m     157[m : [35m  4010ac:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       0 : [35m  4010b1:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      38[m : [35m  4010b6:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     107[m : [35m  4010bb:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     114[m : [35m  4010c0:[m[34m       lock add QWORD PTR [rbx],0x1[m
+[32m     144[m : [35m  4010c5:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       0 : [35m  4010ca:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      42[m : [35m  4010cf:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      91[m : [35m  4010d4:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      89[m : [35m  4010d9:[m[34m       lock add QWORD PTR [rbx],0x1[m
+[32m     160[m : [35m  4010de:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       0 : [35m  4010e3:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      43[m : [35m  4010e8:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      98[m : [35m  4010ed:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     117[m : [35m  4010f2:[m[34m       lock add QWORD PTR [rbx],0x1[m
+[32m     156[m : [35m  4010f7:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       0 : [35m  4010fc:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      38[m : [35m  401101:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     114[m : [35m  401106:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     121[m : [35m  40110b:[m[34m       lock add QWORD PTR [rbx],0x1[m
+[32m     160[m : [35m  401110:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       0 : [35m  401115:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      49[m : [35m  40111a:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     105[m : [35m  40111f:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      86[m : [35m  401124:[m[34m       lock add QWORD PTR [rbx],0x1[m
+[32m     158[m : [35m  401129:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+       0 : [35m  40112e:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      44[m : [35m  401133:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m      79[m : [35m  401138:[m[34m       vpmulld xmm0,xmm0,xmm0[m
+[32m     112[m : [35m  40113d:[m[34m       lock add QWORD PTR [rbx],0x1[m
+         :            atomic4.asm:21
+[32m     151[m : [35m  401142:[m[34m       dec    rcx[m
+         :            atomic4.asm:22
+       0 : [35m  401145:[m[34m       jne    401048 <_start.loop>[m

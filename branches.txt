@@ -1,0 +1,94 @@
+ Samples |	Source code & Disassembly of branches for task-clock (448 samples, percent: local period)
+---------------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         :            Disassembly of section .text:
+         :
+         :            000000000040103c <_start.loop>:
+         :            _start.loop():
+         :            branches.asm:24
+[32m      11[m : [35m  40103c:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      24[m : [35m  40103f:[m[34m       nop[m
+       0 : [35m  401040:[m[34m       nop[m
+       0 : [35m  401041:[m[34m       nop[m
+       0 : [35m  401042:[m[34m       nop[m
+[32m      10[m : [35m  401043:[m[34m       je     401047 <_start.loop+0xb>[m
+       0 : [35m  401045:[m[34m       nop[m
+       0 : [35m  401046:[m[34m       nop[m
+       0 : [35m  401047:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      36[m : [35m  40104a:[m[34m       nop[m
+       0 : [35m  40104b:[m[34m       nop[m
+       0 : [35m  40104c:[m[34m       nop[m
+       0 : [35m  40104d:[m[34m       nop[m
+[32m      17[m : [35m  40104e:[m[34m       je     401052 <_start.loop+0x16>[m
+       0 : [35m  401050:[m[34m       nop[m
+       0 : [35m  401051:[m[34m       nop[m
+       0 : [35m  401052:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      39[m : [35m  401055:[m[34m       nop[m
+       0 : [35m  401056:[m[34m       nop[m
+       0 : [35m  401057:[m[34m       nop[m
+       0 : [35m  401058:[m[34m       nop[m
+[32m       9[m : [35m  401059:[m[34m       je     40105d <_start.loop+0x21>[m
+       0 : [35m  40105b:[m[34m       nop[m
+       0 : [35m  40105c:[m[34m       nop[m
+       0 : [35m  40105d:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      37[m : [35m  401060:[m[34m       nop[m
+       0 : [35m  401061:[m[34m       nop[m
+       0 : [35m  401062:[m[34m       nop[m
+       0 : [35m  401063:[m[34m       nop[m
+[32m       8[m : [35m  401064:[m[34m       je     401068 <_start.loop+0x2c>[m
+       0 : [35m  401066:[m[34m       nop[m
+       0 : [35m  401067:[m[34m       nop[m
+       0 : [35m  401068:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      35[m : [35m  40106b:[m[34m       nop[m
+       0 : [35m  40106c:[m[34m       nop[m
+       0 : [35m  40106d:[m[34m       nop[m
+       0 : [35m  40106e:[m[34m       nop[m
+[32m       9[m : [35m  40106f:[m[34m       je     401073 <_start.loop+0x37>[m
+       0 : [35m  401071:[m[34m       nop[m
+       0 : [35m  401072:[m[34m       nop[m
+       0 : [35m  401073:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      44[m : [35m  401076:[m[34m       nop[m
+       0 : [35m  401077:[m[34m       nop[m
+       0 : [35m  401078:[m[34m       nop[m
+       0 : [35m  401079:[m[34m       nop[m
+[32m      10[m : [35m  40107a:[m[34m       je     40107e <_start.loop+0x42>[m
+       0 : [35m  40107c:[m[34m       nop[m
+       0 : [35m  40107d:[m[34m       nop[m
+       0 : [35m  40107e:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      24[m : [35m  401081:[m[34m       nop[m
+       0 : [35m  401082:[m[34m       nop[m
+       0 : [35m  401083:[m[34m       nop[m
+       0 : [35m  401084:[m[34m       nop[m
+[32m      10[m : [35m  401085:[m[34m       je     401089 <_start.loop+0x4d>[m
+       0 : [35m  401087:[m[34m       nop[m
+       0 : [35m  401088:[m[34m       nop[m
+       0 : [35m  401089:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      33[m : [35m  40108c:[m[34m       nop[m
+       0 : [35m  40108d:[m[34m       nop[m
+       0 : [35m  40108e:[m[34m       nop[m
+       0 : [35m  40108f:[m[34m       nop[m
+[32m      11[m : [35m  401090:[m[34m       je     401094 <_start.loop+0x58>[m
+       0 : [35m  401092:[m[34m       nop[m
+       0 : [35m  401093:[m[34m       nop[m
+       0 : [35m  401094:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      26[m : [35m  401097:[m[34m       nop[m
+       0 : [35m  401098:[m[34m       nop[m
+       0 : [35m  401099:[m[34m       nop[m
+       0 : [35m  40109a:[m[34m       nop[m
+[32m      12[m : [35m  40109b:[m[34m       je     40109f <_start.loop+0x63>[m
+       0 : [35m  40109d:[m[34m       nop[m
+       0 : [35m  40109e:[m[34m       nop[m
+       0 : [35m  40109f:[m[34m       mov    rax,QWORD PTR [rax][m
+[31m      27[m : [35m  4010a2:[m[34m       nop[m
+       0 : [35m  4010a3:[m[34m       nop[m
+       0 : [35m  4010a4:[m[34m       nop[m
+       0 : [35m  4010a5:[m[34m       nop[m
+[32m      16[m : [35m  4010a6:[m[34m       je     4010aa <_start.loop+0x6e>[m
+       0 : [35m  4010a8:[m[34m       nop[m
+       0 : [35m  4010a9:[m[34m       nop[m
+         :            branches.asm:26
+       0 : [35m  4010aa:[m[34m       dec    rcx[m
+         :            branches.asm:27
+       0 : [35m  4010ad:[m[34m       jne    40103c <_start.loop>[m
